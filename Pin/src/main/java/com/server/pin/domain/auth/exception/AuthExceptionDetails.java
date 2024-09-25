@@ -9,7 +9,9 @@ import org.springframework.http.HttpStatus;
 @RequiredArgsConstructor
 public enum AuthExceptionDetails implements ExceptionDetail {
     USER_ALREADY_EXISTS(HttpStatus.BAD_REQUEST, "user already exists"),
-    USER_NOT_FOUND(HttpStatus.BAD_REQUEST, "user not found")
+    USER_NOT_FOUND(HttpStatus.BAD_REQUEST, "user not found"),
+    DETAILDEPARTMENT_DATA_WRONG(HttpStatus.BAD_REQUEST, "detaildepartment data type wrong"),
+    ID_NOT_FOUND(HttpStatus.BAD_REQUEST, "id not found in database"),
     ;
 
     private final HttpStatus status;
