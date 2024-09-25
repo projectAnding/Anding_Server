@@ -23,11 +23,10 @@ public class SecurityConfig {
                 .formLogin(AbstractHttpConfigurer::disable)
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(it -> it
-                                .anyRequest().permitAll()
-//                        .requestMatchers("/student/**").hasRole("STUDENT")
-//                        .requestMatchers("/teacher/**").hasRole("TEACHER")
-//                        .requestMatchers("/admin/**").hasRole("ADMIN")
+                        .requestMatchers("/v3/api-docs/**", "/swagger-ui/**", "/swagger-resources/**", "/v3/api-docs").permitAll()
+//                        .requestMatchers("/{userId}/**").hasAnyRole("STUDENT", "TEACHER")
 //                        .anyRequest().authenticated()
+                                .anyRequest().permitAll()
                 )
                 .build();
     }
