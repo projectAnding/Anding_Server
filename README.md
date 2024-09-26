@@ -2,7 +2,7 @@
 
 it is a repository about Anding's Server Code
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=&layout=donut-vertical)](https://github.com/projectAnding/Anding_Server/blob/master/README.md)
+
 
 ![js](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ![js](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![js](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![js](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) ![js](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
